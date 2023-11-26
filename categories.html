@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(21, 19, 19);
+}
+
+html , body {
+height: 100%;
+width: 100%;
+}
+
+
+        @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+
+        a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 60px;
+    z-index: 10;
+}
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 40px 0;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+.nav li + li {
+    margin-left: 16px;
+}
+.nav li a {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 40px;
+    border: 3px solid #100dd2;
+    background-color: #060707;
+    color: #55c94f;
+    border-radius: 2em;
+    display: block;
+}
+
+body {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", Arial, sans-serif;
+  background: #7f9ead;
+}
+
+.bunch3{
+    display: flex;
+    margin-top: 150px;
+}
+
+.card {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  padding: 30px 50px;
+  background: #fff;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.card:hover {
+  height: 320px;
+}
+
+.imgbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-80px);
+  z-index: 99;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+}
+
+.content {
+  padding: 10px 20px;
+  text-align: center;
+  transform: translateY(-450px);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.card:hover > .content {
+  opacity: 1;
+  transform: translateY(-180px);
+}
+
+.content h2 {
+  color: #7f9ead;
+}
+
+    </style>
+  </head>
+
+
+<!-- body -->
+
+
+  <body>
+    <header class="header">
+        <div class="header-row">
+
+            <nav class="nav">
+                <ul class="cursor-scale small">
+                    <li><a href="index.html">Go Back</a></li>
+                    <li><a href="account.html">Account</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1>Explore Fashion Collection</h1>
+    <div class="bunch3">
+    <div class="card">
+      <div class="imgbox">
+        <img
+        style="height: 150px;"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3dc8KY5wN_yzG4Vk2N4EDpD9PtYflVjJaUQ&usqp=CAU"
+        />
+      </div>
+      <div class="content">
+        <h2>Checks Shirts</h2>
+        <p>
+          "Classic pattern, cotton fabric, button-down collar, long sleeves. Timeless style for casual elegance and versatile wardrobe options."
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgbox">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKh338JytjNLS7czUiN_Tx6ryyvISp5KL8Mg&usqp=CAU"
+        />
+      </div>
+
+      <div class="content">
+        <h2>Blue Jeans</h2>
+        <p>
+          Durable denim fabric, classic five-pocket design, comfortable fit, timeless style, essential for versatile casual wear.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgbox">
+        <img style="height: 150px;"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIlE1i8h71-_-9gggSNN3FxgwFNm0GcfNTvg&usqp=CAU"
+        />
+      </div>
+      <div class="content">
+        <h2>Wedding Sarees</h2>
+        <p>
+          Elegant Indian attire, draped fabric, vibrant colors, cultural grace, traditional beauty, timeless fashion statement.
+        </p>
+      </div>
+    </div>
+    </div>
+
+    <!-- Another bunch of 3 cards -->
+
+    <h1>Electronics</h1>
+    <div class="bunch3">
+    <div class="card">
+      <div class="imgbox">
+        <img style="height: 150px;"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKfDnTS_SrnRv7_AGvQIVMl3PiNMQAsWROIg&usqp=CAU"
+        />
+      </div>
+      <div class="content">
+        <h2>Headphones</h2>
+        <p>
+          Immersive sound, ergonomic design, wireless connectivity, noise cancellation, long battery life – headphones redefine audio excellence.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgbox">
+        <img
+          src="https://images.unsplash.com/photo-1603302576837-37561b2e2302?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bGFwdG9wc3xlbnwwfHwwfHx8MA%3D%3D"
+        />
+      </div>
+
+      <div class="content">
+        <h2>Laptops</h2>
+        <p>
+          Compact, portable devices with powerful processors, ample storage, vibrant displays, and efficient multitasking capabilities for versatile use.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgbox">
+        <img style="height: 150px;"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn99DM-k1UQaqmx_jUB1BcE2851rFR1CLZaw&usqp=CAU"
+        />
+      </div>
+      <div class="content">
+        <h2>Speakers</h2>
+        <p>
+          High-fidelity sound with precise drivers and ample power output
+        </p>
+      </div>
+    </div>
+    </div>
+
+    <!-- Another bunch of 3 cards -->
+
+    <h1>Mobile</h1>
+    <div class="bunch3">
+    <div class="card">
+      <div class="imgbox">
+        <img style="height: 150px;"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWuIOZSB5f6b0iLbcTfMuGC8kR0bst6zXJOA&usqp=CAU"
+        />
+      </div>
+      <div class="content">
+        <h2>peakpx smartphone</h2>
+        <p>
+          
+Smartphones have evolved into compact powerhouses, seamlessly blending communication, computation, and connectivity.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgbox">
+        <img style="height: 150px;"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaejd9CB1wMoSuXxLFhd4ow5zpTOLI0qwtvA&usqp=CAU"
+        />
+      </div>
+
+      <div class="content">
+        <h2>Samsung S20 Ultra</h2>
+        <p>
+          
+Smartphones have evolved into compact powerhouses, seamlessly blending communication, computation, and connectivity.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgbox">
+        <img style="height: 150px;"
+          src="https://c4.wallpaperflare.com/wallpaper/510/269/202/apple-inc-iphone-technology-macbook-wallpaper-preview.jpg"
+        />
+      </div>
+      <div class="content">
+        <h2>Iphones</h2>
+        <p>
+          
+Smartphones have evolved into compact powerhouses, seamlessly blending communication, computation, and connectivity.
+        </p>
+      </div>
+    </div>
+    </div>
+
+    <!-- Another bunch of 3 cards starts here -->
+
+    <h1>Cosmetics</h1>
+    <div class="bunch3">
+    <div class="card">
+      <div class="imgbox">
+        <img style="height: 150px;"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2O4GWHpgrdSkvM6yGEMxa2G4tPtBH3Wz9Fg&usqp=CAU"
+        />
+      </div>
+      <div class="content">
+        <h2>Lipsticks</h2>
+        <p>
+          Vibrant hues, smooth texture, long-lasting, enriching lips with bold color, enhancing beauty and confidence effortlessly.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgbox">
+        <img style="height: 150px;"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrVL5s_YLfClJWyNgNzGlEIIMOtLsU03yG-Q&usqp=CAU"
+        />
+      </div>
+
+      <div class="content">
+        <h2>Makeup set</h2>
+        <p>
+          Vibrant makeup set: 12 eyeshadows, 6 lip colors, 4 blushes, and portable mirror for versatile glam.
+        </p>
+      </div>
+    </div>
+    <div class="card">
+      <div class="imgbox">
+        <img style="height: 150px;"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSCoVgekLxI7ulNWLW0pweoDAggqlA3W6Lxw&usqp=CAU"
+        />
+      </div>
+      <div class="content">
+        <h2>Brushes</h2>
+        <p>
+          Soft, synthetic bristles for flawless application. Durable handles ensure precision and comfort. Essential tools for beauty.
+        </p>
+      </div>
+    </div>
+    </div>
+
+    <div>
+      <video src="https://thisismagma.com/wp-content/themes/magma/assets/home/glass/1.webm?2" autoplay loop muted>
+      </video>
+      <h2 id="policy">Your Review Matters</h2>
+    </div>
+  </body>
+</html>
