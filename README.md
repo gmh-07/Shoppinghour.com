@@ -1,2 +1,2 @@
 # Shoppinghour.com
-This is my another mini project for technical club audition
+# This is just a simple project for technical club audition
